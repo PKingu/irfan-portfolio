@@ -1,9 +1,8 @@
 import type { Metadata } from "next";
-import { Plus_Jakarta_Sans, JetBrains_Mono } from "next/font/google"; // Swapped Geist for Jakarta
+import { Plus_Jakarta_Sans, JetBrains_Mono } from "next/font/google"; 
 import "./globals.css";
 import Navbar from "@/components/Navbar";
 
-// modern, geometric alternative to Geist
 const jakarta = Plus_Jakarta_Sans({ 
   subsets: ["latin"], 
   variable: "--font-jakarta" 
