@@ -104,7 +104,7 @@ export const projects = [
     impact: "£40k/year Saved (1,000+ Hours)",
     content: `
       <h3 class="text-xl font-bold text-white mb-4">The Challenge: Investigation Fatigue</h3>
-      <p class="mb-6">At BT Group, I identified that the manual triage process—extracting alert data, formatting tables, scanning URLs, and drafting reports—consumed 30–60 minutes per incident. This manual overhead hindered the SOC's ability to respond to high-volume threats effectively.</p>
+      <p class="mb-6">At BT Group, I identified that the manual triage process, of extracting alert data, formatting tables, scanning URLs, and drafting reports, consumed 30–60 minutes per incident. This manual overhead hindered the SOC's ability to respond to high-volume threats effectively.</p>
       
       <h3 class="text-xl font-bold text-white mb-4">The Solution: End-to-End Automation</h3>
       <p class="mb-4">I developed a custom investigation lifecycle using <strong>Microsoft Power Automate</strong> that integrates raw SIEM data with real-time threat intelligence and generative AI.</p>
@@ -116,7 +116,7 @@ export const projects = [
       </ul>
 
       <h3 class="text-xl font-bold text-white mb-4">Operational Impact</h3>
-      <p>Deployed across 8 core Splunk alerts, the system is projected to save over 1,000 analyst hours annually, representing approximately £40,000 in operational costs.</p>
+      <p>Deployed across 8 core Splunk alerts, the system is projected to save over 1,000 analyst hours annually, representing approximately £40,000 in operational costs. This project will also be upscaled by BT across many other detections too</p>
     `
   },
   {
