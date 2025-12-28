@@ -39,7 +39,7 @@ export default function TerminalHero() {
           ./view_projects.sh
         </a>
         <a href="/cv.pdf" className="px-6 py-3 border border-gray-700 text-neon font-mono hover:bg-neon/10 transition-all rounded-sm flex items-center gap-2">
-          <Download size={16} /> cat cv.pdf
+          <Download size={16} /> cat CV.pdf
         </a>
       </div>
     </section>
