@@ -10,8 +10,8 @@ export const personalInfo = {
 };
 
 export const skills = [
-  "Python", "C++", "Java", "Scala", "Django", "HTML", "CSS", "JavaScript", 
-  "Git", "SQL", "KQL", "SPL", "Power Automate (WDL)", "Wireshark", "Nmap", 
+  "Python", "C++", "Java", "Scala", "Django", "HTML", "CSS", "Tailwind", "JavaScript", "Typescript", "Next.js",
+ "Git", "SQL", "KQL", "SPL", "Power Automate (WDL)", "Wireshark", "Nmap", 
   "Suricata", "Splunk", "Microsoft Sentinel", "Microsoft Defender", "CrowdStrike",
   "QRadar", "XSOAR", "Linux", "OpenAI API", "GROQ API", "GitHub"
 ];
@@ -112,7 +112,7 @@ export const projects = [
       <ul class="list-disc pl-5 space-y-2 mb-6 text-gray-400">
         <li><strong>Data Transformation:</strong> Used WDL (Workflow Definition Language) with HTML and CSS to reformat raw Splunk CSV alert data into high-readability tables for analyst review.</li>
         <li><strong>Automated Sandbox Triage:</strong> Integrated the <strong>Falcon Sandbox API</strong> to automatically scan suspicious URLs. The system only alerts analysts if activity passes a pre-defined risk threshold.</li>
-        <li><strong>AI-Driven Incident Reporting:</strong> Implemented <strong>OpenAI</strong> to synthesise public incident data into structured triage reports. This shifted the analyst's role from manual data entry to "investigative verification," allowing for a 96% reduction in handling time.</li>
+        <li><strong>AI-Driven Incident Reporting:</strong> Implemented <strong>OpenAI</strong> to synthesise public incident data into structured triage reports. This shifted the analyst's role from manual data entry to "investigative verification", allowing for a 96% reduction in handling time.</li>
       </ul>
 
       <h3 class="text-xl font-bold text-white mb-4">Operational Impact</h3>
@@ -127,17 +127,17 @@ export const projects = [
     impact: "Expanded Threat Coverage",
     content: `
       <h3 class="text-xl font-bold text-white mb-4">Closing Critical Visibility Gaps</h3>
-      <p class="mb-6">I took the lead on a significant uplift of BT's detection capabilities by engineering 11 new Splunk alerts specifically mapped to the <strong>MITRE ATT&CK</strong> framework to ensure comprehensive threat coverage.</p>
+      <p class="mb-6">I took the lead on a significant project to uplift BT's detection capabilities by engineering 11 new Splunk alerts specifically mapped to the <strong>MITRE ATT&CK</strong> framework to ensure comprehensive threat coverage.</p>
       
       <h3 class="text-xl font-bold text-white mb-4">Technical Implementation</h3>
       <ul class="list-disc pl-5 space-y-2 mb-6 text-gray-400">
         <li><strong>Query Optimisation:</strong> Developed complex SPL queries from scratch, performing rigorous stress testing to evaluate server load, alert frequency, and the accuracy of custom RegEx files.</li>
         <li><strong>SIEM Multi-Platform Handling:</strong> Became the only intern to resolve 50+ alerts across Microsoft Sentinel, Splunk, QRadar, XSOAR, and CrowdStrike, gaining a broad understanding of cross-platform monitoring.</li>
-        <li><strong>Playbook Standardisation:</strong> Authored 10+ comprehensive playbooks in <strong>Sentinel (using KQL)</strong> and Splunk (using SPL). These step-by-step guides turned one-off investigative work into structured templates that analysts could reuse, ensuring high-quality, repeatable processes across the SOC.</li>
+        <li><strong>Playbook Standardisation:</strong> Authored 10+ comprehensive playbooks in <strong>Sentinel (using KQL)</strong> and <strong>Splunk (using SPL)</strong>. These step-by-step guides turned one-off investigative work into structured templates that analysts could reuse, ensuring high-quality, repeatable processes across the SOC.</li>
       </ul>
 
       <h3 class="text-xl font-bold text-white mb-4">Impact</h3>
-      <p>My work improved both threat coverage and consistency in workflows. These standardised playbooks continue to provide value to the SOC team long after my internship by saving time and ensuring accuracy during incident response.</p>
+      <p>My work improved both threat coverage and consistency in workflows. These detections and standardised playbooks continue to provide value to the SOC team long after my internship by saving time and ensuring accuracy during incident response.</p>
     `
   },
   {
@@ -148,7 +148,7 @@ export const projects = [
     impact: "Proactive Incident Prevention",
     content: `
       <h3 class="text-xl font-bold text-white mb-4">Tracking UNC3944</h3>
-      <p class="mb-6">I led an initiative to monitor the <strong>Scattered Spider (UNC3944)</strong> threat group by analysing their specific TTPs, such as the exploitation of M365 tenants for persistence and the use of legitimate RMM tools.</p>
+      <p class="mb-6">I led an initiative to monitor the <strong>Scattered Spider (UNC3944)</strong> threat group by analysing their specific TTPs, such as the exploitation of M365 tenants for persistence and the use of legitimate RMM tools, through <strong>MITRE ATT&CK</strong>.</p>
       
       <h3 class="text-xl font-bold text-white mb-4">Engineering the Dashboard</h3>
       <p class="mb-4">I translated this intelligence into dedicated SPL queries to detect and visualise activities linked to these specific behaviours.</p>
@@ -173,7 +173,7 @@ export const projects = [
       <ul class="list-disc pl-5 space-y-2 mb-6 text-gray-400">
         <li><strong>AI Auto-Fill:</strong> Integrated the <strong>Groq API (LLaMA)</strong> to build an auto-fill feature that converts ingredient lists into complete, structured recipes.</li>
         <li><strong>Dynamic Scaling:</strong> Built an ingredient management system using <strong>Regular Expressions</strong> to enforce strict formatting, enabling real-time rescaling of quantities based on serving size.</li>
-        <li><strong>Social Ecosystem:</strong> Implemented a follower-based social system with personalized profiles, Gravatar integration, and full CRUD operations.</li>
+        <li><strong>Social Ecosystem:</strong> Implemented a follower-based social system with personalized profiles, <strong>Gravatar</strong> integration, and full CRUD operations.</li>
       </ul>
     `
   },
@@ -185,7 +185,7 @@ export const projects = [
     impact: "Real-time Simulation Optimisation",
     content: `
       <h3 class="text-xl font-bold text-white mb-4">Game Architecture From Scratch</h3>
-      <p class="mb-6">Rather than using a pre-built engine, I manually implemented all core systems in Python/Pygame to master real-time simulation architecture and low-level physics.</p>
+      <p class="mb-6">Rather than using a pre-built engine, I manually implemented all core systems in <strong>Python/Pygame</strong> to master real-time simulation architecture and low-level physics.</p>
       
       <ul class="list-disc pl-5 space-y-2 mb-6 text-gray-400">
         <li><strong>Procedural Audio:</strong> Designed a custom audio engine using <strong>NumPy</strong> to synthesise sine and sawtooth waves with exponential decay envelopes.</li>
@@ -202,12 +202,12 @@ export const projects = [
     impact: "Environmental Data Visualisation",
     content: `
       <h3 class="text-xl font-bold text-white mb-4">Geospatial Data Analytics</h3>
-      <p class="mb-6">Built a comprehensive JavaFX application to analyse and visualise air quality across London, integrating historical datasets with live sensor telemetry.</p>
+      <p class="mb-6">Built a comprehensive <strong>JavaFX</strong> application to analyse and visualise air quality across London, integrating historical datasets with live sensor telemetry.</p>
       
       <ul class="list-disc pl-5 space-y-2 mb-6 text-gray-400">
         <li><strong>API Integration:</strong> Managed complex JSON parsing for the <strong>OpenAQ API</strong>, converting raw responses into interactive LocationData objects for over 100 sensors.</li>
         <li><strong>Coordinate Mapping:</strong> Implemented geospatial conversion logic to translate Easting and Northing values into pixel space for a custom interactive map.</li>
-        <li><strong>UX/UI:</strong> Designed a dual-theme interface with dynamic filtering by pollutant severity (NO2, PM10, PM2.5) and a full JUnit testing suite to ensure data accuracy.</li>
+        <li><strong>UX/UI:</strong> Designed a dual-theme interface with dynamic filtering by pollutant severity (NO2, PM10, PM2.5) and a full <strong>JUnit testing</strong>  suite to ensure data accuracy.</li>
       </ul>
     `
   },
@@ -256,9 +256,9 @@ export const projects = [
       <p class="mb-6">Developed an AI fitness application delivering real-time analytics for bicep curls, focused on biomechanical accuracy for professional training.</p>
       
       <ul class="list-disc pl-5 space-y-2 mb-6 text-gray-400">
-        <li><strong>Landmark Tracking:</strong> Used <strong>MediaPipe</strong> and OpenCV to track skeletal landmarks and calculate precise joint angles.</li>
+        <li><strong>Landmark Tracking:</strong> Used <strong>MediaPipe</strong> and <strong>OpenCV</strong> to track skeletal landmarks and calculate precise joint angles.</li>
         <li><strong>Biomechanical Monitoring:</strong> Built a detection system for horizontal elbow-to-wrist displacement, providing instant visual overlays and audio alerts for form deviations.</li>
-        <li><strong>Analytics:</strong> Used <strong>NumPy-based linear regression</strong> to calculate training intensity gradients and generated Matplotlib rep-speed visualisations.</li>
+        <li><strong>Analytics:</strong> Used <strong>NumPy-based linear regression</strong> to calculate training intensity gradients and generated <strong>Matplotlib</strong> rep-speed visualisations.</li>
       </ul>
     `
   }

@@ -15,7 +15,7 @@ const jetbrains = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Irfan Hussain | Security Researcher",
+  title: "Irfan Hussain | Security Specialist",
   description: "Portfolio of Irfan Hussain - Incoming Security Research Intern at Microsoft (MSTIC).",
 };
 

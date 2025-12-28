@@ -31,7 +31,7 @@ export default function TerminalHero() {
         Incoming Security Research Intern @ <strong className="text-white">Microsoft (MSTIC)</strong>. 
         MSc Computer Science Student at King&apos;s College London.
         <br /><br />
-        Bridging the gap between complex security data and actionable intelligence. Recently saved BT Group £40k/year through custom SOC automation.
+        Connecting the worlds between complex security data and actionable intelligence. Recently saved BT Group £40k/year through custom SOC automation.
       </p>
 
       <div className="flex gap-4">

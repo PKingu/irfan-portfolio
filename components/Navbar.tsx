@@ -10,7 +10,7 @@ export default function Navbar() {
       {/* Brand / Logo */}
       <div className="flex items-center gap-2 font-mono text-neon font-bold text-lg tracking-tighter">
         <Terminal size={18} />
-        <span>&gt; Irfan_Hussain</span>
+        <span>Irfan_Hussain</span>
       </div>
       
       {/* Navigation Links (Desktop) */}
