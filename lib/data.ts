@@ -116,7 +116,7 @@ export const projects = [
       </ul>
 
       <h3 class="text-xl font-bold text-white mb-4">Operational Impact</h3>
-      <p>Deployed across 8 core Splunk alerts, the system is projected to save over 1,000 analyst hours annually, representing approximately £40,000 in operational costs. This project will also be upscaled by BT across many other detections too</p>
+      <p>Deployed across 8 core Splunk alerts, the system is projected to save over 1,000 analyst hours annually, representing approximately £40,000 in operational costs. Additionally, this project will be upscaled by the BT SOC across many other detections.</p>
     `
   },
   {
