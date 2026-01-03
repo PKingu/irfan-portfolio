@@ -20,7 +20,7 @@ export const experiences = [
   {
     role: "Incoming Security Research Intern",
     company: "Microsoft (MSTIC)",
-    period: "Summer 2025",
+    period: "Summer 2026",
     description: "Joining the Microsoft Threat Intelligence Centre (MSTIC). I will be working at the forefront of tracking global threat actors and researching new ways to protect the digital ecosystem.",
     current: true,
   },
