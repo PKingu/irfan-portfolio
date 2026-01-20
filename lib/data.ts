@@ -50,7 +50,7 @@ export const experiences = [
 export const education = [
   {
     school: "King's College London",
-    degree: "MSc Computer Science",
+    degree: "MSci Computer Science",
     period: "2024 – 2028",
     grade: "Predicted First Class",
     details: [
