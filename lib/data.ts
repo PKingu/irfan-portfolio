@@ -55,7 +55,7 @@ export const education = [
     grade: "Predicted First Class",
     details: [
       "ISACA Digital Trust Scholarship (2025) - Awarded for excellence in cybersecurity.",
-      "Focusing on secure software engineering and cyber security."
+      "ISACA London Chapter IT Audit Scholarship (2026) - Selected for high aptitude in cyber governance."
     ]
   },
   {

@@ -29,7 +29,7 @@ export default function TerminalHero() {
 
       <p className="text-gray-400 text-lg md:text-xl max-w-2xl mb-10 leading-relaxed font-sans">
         Incoming Security Research Intern @ <strong className="text-white">Microsoft (MSTIC)</strong>. 
-        MSc Computer Science Student at King&apos;s College London.
+        MSci Computer Science Student at King&apos;s College London.
         <br /><br />
         Connecting the worlds between complex security data and actionable intelligence. Recently saved BT Group £40k/year through custom SOC automation.
       </p>
