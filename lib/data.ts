@@ -6,7 +6,7 @@ export const personalInfo = {
   email: "iru.hussain4@gmail.com",
   linkedin: "https://www.linkedin.com/in/irfan-hussain045",
   github: "https://github.com/PKingu", 
-  about: "Incoming Security Research Intern at Microsoft (MSTIC) and Computer Science MSc student at King's College London. Specialising in threat intelligence and SOC automation. Recently saved BT Group £40k/year by automating alert triage workflows.",
+  about: "Incoming Security Research Intern at Microsoft (MSTIC) and Computer Science MSci student at King's College London. Specialising in threat intelligence and SOC automation. Recently saved BT Group £40k/year by automating alert triage workflows.",
 };
 
 export const skills = [
